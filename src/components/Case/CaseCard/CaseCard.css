@@ -1,0 +1,20 @@
+.case-card {
+    background: #130f2a;
+    border-radius: .65rem;
+    border: 1.5px solid #6751b9;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.case-card img {
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+@media (max-width: 768px) {
+    .case-card {
+        margin: 0;
+    }
+}

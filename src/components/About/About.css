@@ -1,0 +1,124 @@
+.about-container {
+    margin: 6rem 2rem;
+    position: relative;
+}
+.about-container::before {
+    content: '';
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+.about-container::before {
+    bottom: 2rem;
+    left: 0rem;
+}
+.about-container h2 {
+    margin: 4rem 0;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.about-img > img {
+    width: 23rem;
+}
+.about-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: left;
+    gap: 2rem;
+}
+.about-info > .btn-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: .6rem 2rem;
+    width: 12rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.about-info > .btn-cv > a {
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #fff;
+
+}
+.about-info > .btn-cv:hover {
+    color: #a993fe;
+    background: #000;
+    outline: 1.5px solid #a993fe;
+}
+
+
+@media (max-width: 1025px) {
+    .about-content h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .about-info p {
+        font-size: .9rem;
+        line-height: 1.6rem;
+    }
+    .about-img > img {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+    }
+    .about-img {
+        margin: 2rem 0;
+    }
+    .about-container h2 {
+        margin-top: 3rem;
+    }
+    .about-container::before {
+        content: '';
+        width: 18rem;
+        height: 18rem;
+    }
+    .about-container::before {
+        bottom: 2rem;
+        left: 0;
+    }
+}
+@media (max-width: 600px) {
+    .about-container {
+        padding: 0;
+        margin: 6rem 0;
+    }
+    .about-container h2 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+        margin: 0;
+        margin: 1rem 0;
+    }
+    .about-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .about-info > .btn-cv {
+        width: 100%;
+    }
+    .about-info p {
+        font-size: .8rem;
+        line-height: 1.3rem;
+    }
+    .about-img > img {
+        width: 16rem;
+    }
+}
