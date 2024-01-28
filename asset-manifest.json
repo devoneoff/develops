@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/develops/static/css/main.a2c329eb.css",
+    "main.js": "/develops/static/js/main.567e1b87.js",
+    "static/js/787.39ec2e2d.chunk.js": "/develops/static/js/787.39ec2e2d.chunk.js",
+    "static/media/material-symbols-rounded.woff2": "/develops/static/media/material-symbols-rounded.f7258614a7f5b6601972.woff2",
+    "static/media/material-symbols-outlined.woff2": "/develops/static/media/material-symbols-outlined.055a2a3ef73eeb1568f0.woff2",
+    "static/media/material-symbols-sharp.woff2": "/develops/static/media/material-symbols-sharp.ae87cd7846bc913ac389.woff2",
+    "static/media/slick.svg": "/develops/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/develops/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/develops/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/develops/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/develops/index.html",
+    "main.a2c329eb.css.map": "/develops/static/css/main.a2c329eb.css.map",
+    "main.567e1b87.js.map": "/develops/static/js/main.567e1b87.js.map",
+    "787.39ec2e2d.chunk.js.map": "/develops/static/js/787.39ec2e2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2c329eb.css",
+    "static/js/main.567e1b87.js"
+  ]
+}
